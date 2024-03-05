@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(172, 236, 236);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(24,119,242);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+ 
+    
+}
+
+.box {
+    width: 50%;
+    height: 300px;
+    background-color: rgb(111, 219, 160);    
+    border-radius: 20px;
+    margin-left: 25% ;
+    
+}
+.login {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+
+}
+.Input-box {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 15px;   
+    gap: 15px;
+
+    
+
+
+
+    
+}
+.input-text {
+    
+    height: 200px;
+    padding: 15px;
+}
+.submit-button {
+    background-color: rgb(13, 45, 228);
+    color: aliceblue;
+}
+.bottom {
+    
+}
+
+    
